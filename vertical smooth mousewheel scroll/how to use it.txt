@@ -1,0 +1,14 @@
+How to use it:
+
+1. Include jQuery library and the jQuery scrollSpeed plugin in your project.
+
+1
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+2
+<script src="jQuery.scrollSpeed.js"></script>
+2. Call the plugin and setup the scroll step & speed options.
+
+1
+// $fn.scrollSpeed(step, speed, easing);
+2
+jQuery.scrollSpeed(100, 800);
